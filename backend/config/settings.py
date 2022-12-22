@@ -90,29 +90,29 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 # Heroku Database
-DATABASES = {
-     'default': {
-         'ENGINE': 'django.db.backends.postgresql',
-         'NAME': 'dckg7i6q3cgkrf',
-         'USER': 'aadodlepdevyii',
-         'HOST': 'ec2-34-231-42-166.compute-1.amazonaws.com',
-         'PORT': 5432,
-         'PASSWORD': '87caa671bf1451a21cc4d938971fe5345a7b8d98420c9dea863e27133f2e6c5e',
-     }
- }
+# DATABASES = {
+#      'default': {
+#          'ENGINE': 'django.db.backends.postgresql',
+#          'NAME': 'dckg7i6q3cgkrf',
+#          'USER': 'aadodlepdevyii',
+#          'HOST': 'ec2-34-231-42-166.compute-1.amazonaws.com',
+#          'PORT': 5432,
+#          'PASSWORD': '87caa671bf1451a21cc4d938971fe5345a7b8d98420c9dea863e27133f2e6c5e',
+#      }
+#  }
 
 
 
 # Local Database
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
 
 # Heroku PostgreSQL Database
-django_heroku.settings(locals())
+#django_heroku.settings(locals())
 
 
 # Password validation
