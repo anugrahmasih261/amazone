@@ -25,7 +25,7 @@ Check out [API LIVE DEMO](https://amazon-backend.anugrahmasih.repl.co/) here!!
 1. Git Clone
 
 ```
-git clone https://github.com/mohamedabdi12/A2Z-project.git
+git clone https://github.com/anugrahmasih261/amazone.git
 ```
 
 2. Backend setting
